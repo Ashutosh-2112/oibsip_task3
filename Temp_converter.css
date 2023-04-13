@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    background: rgb(63,94,251);
+    background: linear-gradient(164deg, rgba(63,94,251,1) 0%, rgba(101,89,222,1) 23%, rgba(252,70,107,1) 100%);
+    position: relative;
+}
+.container h1{
+    position: absolute;
+    top: 2%;
+    left: 41%;
+    background: #00FF00;
+    font-size: 48px;
+    background: #FCEABB;
+    background: linear-gradient(to right, #FCEABB 0%, #FCCD4D 50%, #F8B500 51%, #FBDF93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#calcTemp{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    left: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 320px;
+    border: 0px solid transparent;
+    padding: 40px;
+    background: rgb(63,94,251);
+    background: linear-gradient(344deg, rgba(63,94,251,1) 0%, rgba(101,89,222,1) 23%, rgba(252,70,107,1) 100%);
+}
+form label{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+form #temp{
+    padding: 5px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 19px;
+}
+form #temp_diff{
+    padding: 4px;
+    font-size: 19px;
+    border-radius: 5px;
+    border: transparent;
+}
+form #submit{
+    width: 80px;
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 19px;
+    border-radius: 5px;
+    border: transparent;
+}
+form #submit:hover{
+    opacity: .9;
+    font-weight: bold;
+}
+#result{
+    background: #FF0000;
+    background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 33px;
+    font-weight: 800;
+}
